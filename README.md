@@ -25,3 +25,13 @@ Do not forget to close brackets `}}`
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text |
+
+
+### How to create a random number in Java 
+```java
+import java.util.Random;
+    Random rand = new Random();     
+    int max = 101;                              // the range for the random number -100 and 100
+    int min = -100;                             // the range for the random number -100 and 100
+    int number = rand.nextInt(max - min) + min; 
+```    
